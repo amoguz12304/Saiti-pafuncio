@@ -1,3 +1,4 @@
+/* index */
 body{
 
 margin: 0px;
@@ -73,7 +74,7 @@ font-family: 50px;
 
 #destaque{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-top: 50px;
 }
 
@@ -84,4 +85,89 @@ font-family: 50px;
 
 #destaque a:hover{
     opacity: 1.0;
+}
+
+/* sobre.html */
+
+#conteudo-empresa{
+    display: flex;
+}
+
+#conteudo-empresa-esquerda{
+width: 50%;
+}
+
+#conteudo-empresa-direita{
+width: 50%;
+}
+
+#img-impreza{
+    width: 100%;
+
+}
+
+#conteudo-empresa-direita p{
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#selo-melhores-empresas{
+    height: 25%;
+    margin-top: 35px;
+}
+
+/* soluções.html */
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #22577a;
+    font-size: 28px;
+
+}
+
+.destaques-produtos{
+    padding: 0px 15px;
+}
+
+.destaques-produtos a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.destaques-produtos a:hover{
+    font-weight: bold;
+}
+
+/* casos.html */
+
+.detalhes-caso{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.detalhes-caso img{
+    padding-right: 30px;
+}
+
+.detalhes-caso-texto{
+    text-align: start;
+}
+
+/* contato.html */
+
+#formulario{
+display: flex;
+}
+
+#frm-labels{
+    background-color:aqua ;
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#frm-fields{
+    background-color: crimson;
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
 }
